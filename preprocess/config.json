@@ -1,0 +1,6 @@
+{
+    "class_id_map": "/home/yuwei/frameglimpses/thumos_class_mapping.txt", 
+    "class_name_map": "/home/yuwei/frameglimpses/classInd.txt", 
+    "raw_video_path": "/home/yuwei/dataset/UCF101", 
+    "down_sampling_path": "/home/yuwei/dataset/UCF101-5fps/"
+}
