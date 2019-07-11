@@ -1,6 +1,24 @@
 {
     "class_id_map": "/home/yuwei/frameglimpses/thumos_class_mapping.txt", 
     "class_name_map": "/home/yuwei/frameglimpses/classInd.txt", 
-    "raw_video_path": "/home/yuwei/dataset/UCF101", 
-    "down_sampling_path": "/home/yuwei/dataset/UCF101-5fps/"
+    "chunk_size": 10,
+    "training":{
+        "raw_video_path": "/home/yuwei/dataset/UCF101/training", 
+        "down_sampling_path": "/home/yuwei/dataset/UCF101-5fps/",
+        "features_file": "/home/yuwei/dataset/UCF101/train.hdf5",
+        "features_meta_file": "/home/yuwei/dataset/UCF101/train.json"
+    },
+    "val":{
+        "raw_video_path": "/home/yuwei/dataset/UCF101/validation", 
+        "down_sampling_path": "/home/yuwei/dataset/UCF101-val-5fps/",
+        "meta_file_path": "/home/yuwei/dataset/UCF101/thumos14_val_annotation.csv",
+        "features_file": "/home/yuwei/dataset/UCF101/validation.hdf5",
+        "features_meta_file": "/home/yuwei/dataset/UCF101/validation.json"
+    },
+    "test":{
+        "raw_video_path": "/home/yuwei/dataset/UCF101/testing", 
+        "down_sampling_path": "/home/yuwei/dataset/UCF101-test-5fps/",
+        "meta_file_path": "/home/yuwei/dataset/UCF101/thumos14_test_annotation.csv"
+    }
+    
 }

@@ -1,2 +1,3 @@
 preprocess/__pycache__
+preprocess/__pycache__/*
 preprocess/*.hdf5

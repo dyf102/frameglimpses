@@ -18,8 +18,8 @@ cmd:text()
 cmd:text('Options')
 
 -- data files
-cmd:option('-train_data_file','','hdf5 file containing training data for all classes')
-cmd:option('-train_meta_file','','json file containing meta data about training video chunks')
+cmd:option('-train_data_file','/home/yuwei/frameglimpses/preprocess/train.hdf5','hdf5 file containing training data for all classes')
+cmd:option('-train_meta_file','/home/yuwei/frameglimpses/preprocess/matedata.json','json file containing meta data about training video chunks')
 cmd:option('-val_data_file','','hdf5 file containing validation data')
 cmd:option('-val_meta_file','','json file containing meta data about validation video chunks')
 cmd:option('-val_vids_file','','text file containing names of validation video names')

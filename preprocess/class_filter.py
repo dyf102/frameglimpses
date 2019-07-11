@@ -24,7 +24,6 @@ def filter_video_classes(video_files, config):
                 yield (new_class_id, file_name)
 
 
-
 if __name__ == "__main__":
     config = {
         "class_id_map": "/home/yuwei/frameglimpses/thumos_class_mapping.txt",
